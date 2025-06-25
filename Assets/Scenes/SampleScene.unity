@@ -160,10 +160,10 @@ MonoBehaviour:
   m_LookAt: {fileID: 1807704074}
   m_Follow: {fileID: 1807704074}
   m_Lens:
-    FieldOfView: 60
-    OrthographicSize: 5
-    NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FieldOfView: 40
+    OrthographicSize: 10
+    NearClipPlane: 0.1
+    FarClipPlane: 5000
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -186,14 +186,133 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82108773}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.1347558, y: 0.03037855, z: -0.0041333484, w: 0.9904044}
-  m_LocalPosition: {x: -10.624001, y: 2.08, z: 12.815001}
+  m_LocalRotation: {x: 0.10763089, y: -0.006951922, z: 0.00075263216, w: 0.9941664}
+  m_LocalPosition: {x: -10.4140005, y: 2.43, z: 12.065001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 566739393}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &145196857 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 307179702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &258023004
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0817575
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.718477
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.0987473
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated) (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+--- !u!1001 &307179702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.2447767
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.7184772
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.3508072
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated) (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
 --- !u!1 &310086959
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,6 +464,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342879001}
   m_Mesh: {fileID: -2204874475194132699, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+--- !u!1001 &368401377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.1192427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.7184768
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8675613
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated) (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+--- !u!4 &411562793 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 769280845}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &427105741
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,13 +794,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: -0.17, y: 1.12, z: -2.73}
-  m_XDamping: 2
-  m_YDamping: 2
-  m_ZDamping: 2
+  m_FollowOffset: {x: 0.04, y: 1.47, z: -3.48}
+  m_XDamping: 2.5
+  m_YDamping: 2.5
+  m_ZDamping: 2.5
   m_AngularDampingMode: 0
   m_PitchDamping: 0
-  m_YawDamping: 2
+  m_YawDamping: 2.5
   m_RollDamping: 0
   m_AngularDamping: 0
 --- !u!114 &566739395
@@ -634,7 +815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0.25, y: -0.78, z: 4.11}
+  m_TrackedObjectOffset: {x: -0.02, y: 0.53, z: 0.81}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
@@ -661,6 +842,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &635984019 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 5947691255522694337}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,6 +941,120 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &724688942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3562231
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.0299606
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.0302925
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated) (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+--- !u!1001 &769280845
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5339489
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.7184768
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.4074554
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated) (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
 --- !u!1 &786566514
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,6 +1221,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796108228}
   m_Mesh: {fileID: -2204874475194132699, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+--- !u!4 &803765991 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 1871269232}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &915904141
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.65898705
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.0488038
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.406662
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated) (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,11 +1341,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
+  near clip plane: 0.1
+  far clip plane: 5000
+  field of view: 40
   orthographic: 0
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1007,8 +1369,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.13475579, y: 0.030378548, z: -0.004133348, w: 0.9904044}
-  m_LocalPosition: {x: -10.624001, y: 2.08, z: 12.815001}
+  m_LocalRotation: {x: 0.10763089, y: -0.006951922, z: 0.0007526322, w: 0.9941664}
+  m_LocalPosition: {x: -10.4140005, y: 2.43, z: 12.065001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1059,7 +1421,6 @@ GameObject:
   - component: {fileID: 975961231}
   - component: {fileID: 975961234}
   - component: {fileID: 975961233}
-  - component: {fileID: 975961232}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -1082,27 +1443,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 313913374}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &975961232
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 975961230}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &975961233
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1153,6 +1493,89 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975961230}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1076764058
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.757
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.589
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 50.667
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      propertyPath: m_Name
+      value: Rearing
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1884681015}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1884681014}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1884681017}
+  m_SourcePrefab: {fileID: 100100000, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+--- !u!4 &1227183264 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 724688942}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1321120571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,7 +1627,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1614737268
+--- !u!1 &1396932495
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1212,103 +1635,118 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1614737272}
-  - component: {fileID: 1614737271}
-  - component: {fileID: 1614737270}
-  - component: {fileID: 1614737269}
+  - component: {fileID: 1396932496}
   m_Layer: 0
-  m_Name: platform
+  m_Name: barrels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1614737269
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614737268}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1614737270
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614737268}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1b67c6be9ea4aa647b374840afcca540, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1614737271
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614737268}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1614737272
+--- !u!4 &1396932496
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614737268}
+  m_GameObject: {fileID: 1396932495}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.2322, y: 0.29, z: 48.9002}
-  m_LocalScale: {x: 12.534428, y: 0.232, z: 3.3649724}
+  m_LocalPosition: {x: -10.65, y: 3.1307578, z: 51.22552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 635984019}
+  - {fileID: 1448998063}
+  - {fileID: 2013288779}
+  - {fileID: 411562793}
+  - {fileID: 145196857}
+  - {fileID: 1604856350}
+  - {fileID: 1407498260}
+  - {fileID: 1690326411}
+  - {fileID: 2009215733}
+  - {fileID: 1227183264}
+  - {fileID: 2117795975}
+  - {fileID: 803765991}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1407498260 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 1486906789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1448998063 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 258023004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1486906789
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7815151
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.7184768
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.2649994
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated) (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+--- !u!4 &1604856350 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 2063618697}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1690326411 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 368401377}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1807704071 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
@@ -1365,8 +1803,193 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.21178913, y: 0.31685972, z: 0.1674509}
-  m_Center: {x: 0.013311863, y: 0.28086895, z: 0.040385723}
+  m_Size: {x: 0.21178913, y: 0.4552691, z: 0.1674509}
+  m_Center: {x: 0.013311863, y: 0.2821564, z: 0.040385723}
+--- !u!1001 &1871269232
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6024246
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3602872
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.922741
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated) (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+--- !u!1 &1884681013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7508d53cd40db254983be07b666397c6, type: 3}
+  m_PrefabInstance: {fileID: 1076764058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1884681014
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884681013}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 25.52948, y: 16.975847, z: 22.431412}
+  m_Center: {x: -0.7939911, y: 7.987923, z: -5.470848}
+--- !u!54 &1884681015
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884681013}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1884681017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884681013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c754351601d56a459ef27af2a8d74da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceToMove: 30
+  startingPosition: {x: 0, y: 0, z: 0}
+  endingPosition: {x: 0, y: 0, z: 0}
+  speed: 10
+  direction: -1
+  currentPosition: {x: 0, y: 0, z: 0}
+--- !u!1001 &1988927006
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5228262
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.718477
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.0166245
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated) (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
 --- !u!1 &2001849442
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,7 +2001,6 @@ GameObject:
   - component: {fileID: 2001849443}
   - component: {fileID: 2001849446}
   - component: {fileID: 2001849445}
-  - component: {fileID: 2001849444}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -1401,27 +2023,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 310086960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2001849444
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001849442}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2001849445
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1532,6 +2133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MandrakeSketchfab
       objectReference: {fileID: 0}
+    - target: {fileID: 6040350529296122166, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1feac7c7869f42b4c8b6324a67fc8336, type: 2}
     - target: {fileID: 6737900653234821421, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1548,6 +2153,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: c4955e9297c741f429e6bd680303f0bb, type: 2}
+    - target: {fileID: 8276441731075000756, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1feac7c7869f42b4c8b6324a67fc8336, type: 2}
     - target: {fileID: 8366794067186114672, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1563,6 +2172,192 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1807704075}
   m_SourcePrefab: {fileID: 100100000, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+--- !u!4 &2009215733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 915904141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2013288779 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 1988927006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2021183110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.1034365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.0488036
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.1083183
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated) (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+--- !u!1001 &2063618697
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.62781715
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.7184768
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.3203697
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated) (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+--- !u!4 &2117795975 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+  m_PrefabInstance: {fileID: 2021183110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5947691255522694337
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1396932496}
+    m_Modifications:
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3582573
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.6996336
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.9905205
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06833129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99766266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7160453166234228919, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7499859639111385613, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
+      propertyPath: m_Name
+      value: Bubbling toxic waste barrel (animated)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d729a2b8540f80c468b6e2026048b6b0, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1572,6 +2367,7 @@ SceneRoots:
   - {fileID: 82108775}
   - {fileID: 2008754744}
   - {fileID: 427105745}
-  - {fileID: 1614737272}
   - {fileID: 1321120573}
   - {fileID: 528992592}
+  - {fileID: 1396932496}
+  - {fileID: 1076764058}
