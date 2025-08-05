@@ -16,8 +16,8 @@ public class Collectable : MonoBehaviour
     void Start()
     {
         startingPosition = transform.position;
-        endingPosition = transform.position;
         endingPosition.x += 1;
+        currentPosition = startingPosition;
     }
 
     // Update is called once per frame
@@ -27,13 +27,15 @@ public class Collectable : MonoBehaviour
         {
             direction *= -1f;
         }
-        if(endingPosition == currentPositon)
+        if(endingPosition == currentPosition)
         {
-            direction = -1f;
+            direction *= -1f;
         }
         speed *= direction;
+        currentPosition.x *= speed * Time.deltaTime;
+        transform.position = currentPosition;
+            
 
-        transform.position.x = currentPosition.x-speed;
 
     }
 

@@ -1515,11 +1515,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.757
+      value: -16.41
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.589
+      value: 1.454
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7508d53cd40db254983be07b666397c6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1928,8 +1928,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceToMove: 30
-  startingPosition: {x: 0, y: 0, z: 0}
-  endingPosition: {x: 0, y: 0, z: 0}
+  startingPosition: {x: -13.757, y: 0.589, z: 50.667}
+  endingPosition: {x: -7.49, y: 0.589, z: 50.667}
   speed: 10
   direction: -1
   currentPosition: {x: 0, y: 0, z: 0}
