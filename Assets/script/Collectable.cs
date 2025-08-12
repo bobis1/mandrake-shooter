@@ -4,40 +4,57 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-    public float distanceToMove;
+    public float speed = 1.0f;
+    public int direction = 1;
+    [Header("Vector3")]
+    private Vector3 startingPosition;
+    private Vector3 endingPosition;
+    public Vector3 currentPositon;
+    private Vector3 endingPosition2;
+    public float distance = 9;
 
-    public Vector3 startingPosition;
-    public Vector3 endingPosition;
-
-    public float speed = 0.1f;
-    public float direction = -1f;
-    public Vector3 currentPosition;
-    // Start is called before the first frame update
-    void Start()
+    void start()
     {
+        endingPosition2 = startingPosition;
+        endingPosition2.x = startingPosition.x - 2;
         startingPosition = transform.position;
-        endingPosition.x += 1;
-        currentPosition = startingPosition;
+        endingPosition = transform.position;
+        currentPositon = startingPosition;
+        endingPosition.x = startingPosition.x + distance;
+        Debug.Log(endingPosition);
+        Debug.Log(startingPosition);
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if(startingPosition == currentPosition)
+        if (transform.position.x >= -4 || transform.position.x <= -20.445)
         {
-            direction *= -1f;
+           
+            direction *= -1;
         }
-        if(endingPosition == currentPosition)
-        {
-            direction *= -1f;
-        }
-        speed *= direction;
-        currentPosition.x *= speed * Time.deltaTime;
-        transform.position = currentPosition;
-            
-
-
+        currentPositon.x = transform.position.x + speed * direction * Time.fixedDeltaTime;
+         currentPositon.y = transform.position.y;
+         currentPositon.z = transform.position.z;
+      
+        
+         transform.position = currentPositon;
+        currentPositon = transform.position; 
+        
     }
+
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if(other.tag == "Player")
+        {
+            gameObject.SetActive(false);
+        }
+        }
+
+
+
+
+
 
 
 }
