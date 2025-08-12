@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 //using Unity.VisualScripting;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class MouseManager : MonoBehaviour
 {
     [Header("Mouse info")]
@@ -16,6 +16,8 @@ public class MouseManager : MonoBehaviour
     public Rigidbody mandrakeRigidbody;
     public Vector3 originalMandrakePosition;
     public Quaternion originalRotation;
+    [Header("LivesManager")]
+    public LivesManager livesManager;
     void Start()
     {
         
@@ -29,6 +31,10 @@ public class MouseManager : MonoBehaviour
         {
             print("Click");
             clickStartLocation = Input.mousePosition;
+            if(livesManager.lives < 0)
+            {
+                SceneManager.LoadScene(0);
+            }
         }
         if (Input.GetMouseButton(0))
         {
@@ -51,6 +57,8 @@ public class MouseManager : MonoBehaviour
             print(launchVector);
             mandrakeRigidbody.isKinematic = false;
             mandrakeRigidbody.AddForce(launchVector.x,launchVector.y, launchVector.y*launchForce, ForceMode.Impulse);
+            livesManager.RemoveLife();
+            
 
         }
         if (Input.GetMouseButton(1))
@@ -59,6 +67,7 @@ public class MouseManager : MonoBehaviour
             mandrakeTransform.position = originalMandrakePosition;
             mandrakeTransform.rotation = originalRotation;
         }
+
 
     }
 
