@@ -18,6 +18,7 @@ public class MouseManager : MonoBehaviour
     public Quaternion originalRotation;
     [Header("LivesManager")]
     public LivesManager livesManager;
+    public GameObject spawnpoint;
     void Start()
     {
         
@@ -26,12 +27,13 @@ public class MouseManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        originalMandrakePosition = spawnpoint.transform.position;
 
         if (Input.GetMouseButtonDown(0))
         {
             print("Click");
             clickStartLocation = Input.mousePosition;
-            if(livesManager.lives < 0)
+            if (livesManager.lives < 0)
             {
                 SceneManager.LoadScene(0);
             }
