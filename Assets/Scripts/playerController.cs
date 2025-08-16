@@ -6,7 +6,9 @@ public class playerController : MonoBehaviour
 {
     public float walk;
     public bool cameraOff;
-    public GameObject camera;
+   
+
+    public float yAxis;
  
     // Start is called before the first frame update
     void Start()
@@ -35,6 +37,13 @@ public class playerController : MonoBehaviour
         {
             transform.Translate(0, -walk * Time.deltaTime, 0);
         }
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            yAxis += 1;
+
+        }
+
 
     }
 
