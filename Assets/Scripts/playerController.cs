@@ -6,7 +6,7 @@ public class playerController : MonoBehaviour
 {
     public float walk;
     public bool cameraOff;
-   
+    public GameObject spawn;
 
     public float yAxis;
  
@@ -40,9 +40,18 @@ public class playerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            yAxis += 1;
+            yAxis += 0.1f;
+            transform.rotation = Quaternion.Euler(yAxis, 0, 0);
+            spawn.transform.rotation = Quaternion.Euler(yAxis, 0, 0);
 
         }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            yAxis -= 0.1f;
+            transform.rotation = Quaternion.Euler(yAxis, 0, 0);
+            spawn.transform.rotation = Quaternion.Euler(yAxis, 0, 0);
+        }
+
 
 
     }
