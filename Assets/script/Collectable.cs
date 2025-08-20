@@ -48,6 +48,7 @@ public class Collectable : MonoBehaviour
             if(other.tag == "Player")
         {
             gameObject.SetActive(false);
+
         }
         }
 
