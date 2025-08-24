@@ -38,7 +38,7 @@ public class playerController : MonoBehaviour
             transform.Translate(0, -walk * Time.deltaTime, 0);
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+      /*  if (Input.GetKey(KeyCode.UpArrow))
         {
             yAxis += 0.1f;
             transform.rotation = Quaternion.Euler(yAxis, 0, 0);
@@ -50,7 +50,7 @@ public class playerController : MonoBehaviour
             yAxis -= 0.1f;
             transform.rotation = Quaternion.Euler(yAxis, 0, 0);
             spawn.transform.rotation = Quaternion.Euler(yAxis, 0, 0);
-        }
+        }*/
 
 
 

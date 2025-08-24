@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class victoryScript2 : MonoBehaviour
 {
+    public int nextScene;
     public int barrelCount;
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,7 @@ public class victoryScript2 : MonoBehaviour
         }
         if (barrelCount == 0)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(nextScene);
         }
     }
 }
