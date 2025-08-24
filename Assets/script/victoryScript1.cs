@@ -25,6 +25,7 @@ public class victoryScript2 : MonoBehaviour
         if (other.gameObject.tag == "barrel")
         {
             barrelCount--;
+            other.gameObject.SetActive(false);
         }
         if (barrelCount == 0)
         {
