@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class stationaryCollectable : MonoBehaviour
 {
-    public TMP_Text ScoreText;
-    public int score;
+    public scoreManager score;
+
     // Start is called before the first frame update
     void Start()
     {
-        score = 0;
+
     }
 
     // Update is called once per frame
@@ -22,14 +21,14 @@ public class stationaryCollectable : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "player")
+        if (other.gameObject.tag == "Player")
         {
-            score++;
-            ScoreText.text = score.ToString();
-            this.gameObject.SetActive(false);
-            print("collision works");
+            score.score++;
+            gameObject.SetActive(false); 
         }
 
-
     }
+
+
+
 }

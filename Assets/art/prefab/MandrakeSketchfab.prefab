@@ -48,14 +48,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8089648413920892154, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511470117316475288, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: -7196244576044482973, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: -6212054272079829299, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c4955e9297c741f429e6bd680303f0bb, type: 2}
+    - target: {fileID: -5267212383395031739, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: -3293181584937138795, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: -1526087490987859090, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: -459933827012726820, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 745fdcb7d80e5fd47ab1dd4edce38052, type: 2}
+    - target: {fileID: 771535976266232712, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
       propertyPath: m_Name
       value: MandrakeSketchfab
@@ -92,6 +120,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1b67c6be9ea4aa647b374840afcca540, type: 2}
+    - target: {fileID: 8523772855540137367, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8917469365778468417, guid: e3b1a6e0498f27241811f65dfedba8c8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -154,5 +190,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.21178913, y: 0.4552691, z: 0.1674509}
-  m_Center: {x: 0.013311863, y: 0.2821564, z: 0.040385723}
+  m_Size: {x: 0.21178913, y: 0.4552691, z: 0.24217606}
+  m_Center: {x: 0.013311863, y: 0.2821564, z: 0.027736664}

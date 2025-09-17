@@ -40,7 +40,6 @@ public class MouseManager : MonoBehaviour
         }
         if (Input.GetMouseButton(0))
         {
-            print("Hold!");
             Vector3 mouseDifference = clickStartLocation - Input.mousePosition;
             launchVector = new Vector3(
                 mouseDifference.x * 1f,
@@ -49,14 +48,10 @@ public class MouseManager : MonoBehaviour
                 );
             mandrakeTransform.position = originalMandrakePosition - launchVector / 400;
             launchVector.Normalize();
-            print(mouseDifference.x);
-            print(mouseDifference.y);
-            print(mouseDifference.z);
+
         }
         if (Input.GetMouseButtonUp(0))
         {
-            print("Release");
-            print(launchVector);
             mandrakeRigidbody.isKinematic = false;
             mandrakeRigidbody.AddForce(launchVector.x,launchVector.y, launchVector.y*launchForce, ForceMode.Impulse);
             livesManager.RemoveLife();

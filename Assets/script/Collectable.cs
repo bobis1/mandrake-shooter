@@ -5,6 +5,7 @@ using UnityEngine;
 public class Collectable : MonoBehaviour
 {
     public float speed = 1.0f;
+    public scoreManager scoreManager;
     public int direction = 1;
     [Header("Vector3")]
     private Vector3 startingPosition;
@@ -13,7 +14,7 @@ public class Collectable : MonoBehaviour
     private Vector3 endingPosition2;
     public float distance = 9;
 
-    void start()
+    void Start()
     {
         endingPosition2 = startingPosition;
         endingPosition2.x = startingPosition.x - 2;
@@ -21,8 +22,6 @@ public class Collectable : MonoBehaviour
         endingPosition = transform.position;
         currentPositon = startingPosition;
         endingPosition.x = startingPosition.x + distance;
-        Debug.Log(endingPosition);
-        Debug.Log(startingPosition);
     }
 
     void FixedUpdate()
@@ -45,10 +44,10 @@ public class Collectable : MonoBehaviour
 
         private void OnTriggerEnter(Collider other)
         {
-            if(other.tag == "Player")
+        if (other.tag == "Player")
         {
+            scoreManager.score += 2;
             gameObject.SetActive(false);
-
         }
         }
 
